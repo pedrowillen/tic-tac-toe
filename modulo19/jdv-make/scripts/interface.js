@@ -11,18 +11,13 @@ function handleClick(event) {
     let position = square.id;
 
     handleMove(position);
-    updateSquares();
+    updateSquares(position);
 }
 
-function updateSquares() {
-    let squares = document.querySelectorAll('.square');
-
-    squares.forEach((square) => {
-        let position = square.id;
-        let symbol = board[position];
-
-        if (symbol != '' ) {
-            square.innerHTML = `<div class='${symbol}'></div>`
-        }
-    })
+function updateSquares(position) {
+    let square = document.getElementById(Number(position));
+    let symbol = board[position];
+    if (symbol != '' ) {
+        square.innerHTML = `<div class='${symbol}'></div>`
+    }
 }
