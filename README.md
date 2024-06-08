@@ -2,12 +2,6 @@
 
 Welcome to the Tic-Tac-Toe web game! This project is a simple yet fun implementation of the classic Tic-Tac-Toe game using modern web technologies. You can play the game directly below or read further to understand how the code works and the technologies used.
 
-![Tic-Tac-Toe Game](https://raw.githubusercontent.com/pedrowillen/tic-tac-toe/main/screenshot.png)
-
-## Play the Game
-
-<iframe src="https://pedrowillen.github.io/tic-tac-toe/" width="600" height="400"></iframe>
-
 ## How It Works
 
 The Tic-Tac-Toe game is implemented using HTML, CSS, and JavaScript. Here's a brief overview of how each part of the project works:
@@ -42,9 +36,3 @@ The JavaScript file contains the game logic, including:
 - **HTML5**: Provides the structure for the game interface.
 - **CSS3**: Used for styling the game and making it responsive.
 - **JavaScript (ES6)**: Implements the game logic and interactivity.
-
-## How to Run the Project Locally
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/pedrowillen/tic-tac-toe.git
